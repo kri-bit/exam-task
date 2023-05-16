@@ -5,6 +5,7 @@ const UserDisplay = () => {
 
   useEffect(() => {
     const fetchUsers = async () => {
+      ; l
       try {
         const response = await fetch('https://randomuser.me/api/?results=3');
         const data = await response.json();
@@ -35,5 +36,11 @@ const UserDisplay = () => {
     </div>
   );
 };
+<<<<<<< HEAD
 
 export default UserDisplay;
+=======
+
+export default UserDisplay;
+
+>>>>>>> 97bd3aa176c35129f577a2eb3083d2d9323ff6f0
